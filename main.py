@@ -32,9 +32,12 @@ def predict_personal_data() : -> np.array
 
 '''
 umeed he jis khushi ki is Dunia ko,
-us ko dainey Wala tou har jagha he , magar  leney Wala he kon... 
+kamyabi per bardaasht karney Wala he kon... 
 
 na Mili insaaf o idalat tou kia hoa, 
 beghair mushkil us ko yaad karta he kon...
+
+kha Gai, woh ibadat, woh muhabbat!!
+assani milney ke Baad Nazar aata he kon...
 
 '''
