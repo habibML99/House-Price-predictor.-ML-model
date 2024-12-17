@@ -14,8 +14,8 @@ y_data = Dataset(["price"])
 X_train, X_test, y_train, y_test = train_test_split(X_data, y_data, test_size = 0.2785, random_state = 42)
 
 model = Pipeline({
-    "regressor": LinearRegression(),
-    "features" : StandardScaler()
+    "scaler": StandardScaler(),
+    "model" : LinearRegression()
 })
 
 model.fit(X_train, y_train)
@@ -26,7 +26,7 @@ print("mean_error :" ,mean_squared_error(y_pred,y_test)
 print("difference : ", y_pred, y_test)
 
 
-def predict_personal_data() : -> np.array 
+def predict_personal_data() -> np.array:
  pass
 
 
